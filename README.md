@@ -37,4 +37,43 @@ As a user, I want to browse recipes organized into categories such as appetizers
 
 
 
+### Feature List(s): 
+
+
+#### Jawaher:
+
+User Registration and Profiles: Users can create accounts, customize their profiles with a profile picture and dietary preferences, and save favorite recipes.
+
+Recipe Search and Filters: Robust search functionality allows users to search for recipes by keywords, ingredients, cuisine, and dietary restrictions.
+
+Recipe Categories: Recipes are organized into categories such as appetizers, main courses, desserts.
+
+Recipe Ratings and Reviews: Users can rate recipes and leave detailed reviews, helping others make informed choices.
+
+Nutritional Information: Nutritional facts are provided for each recipe, including calories, protein, carbs, and more.
+
+#### Alex:
+
+Implementing a chat/text like UI, where the words “ChatGPT” is put in as the responder.
+
+Save ingredients into a file and send it to the user. (auto save recipes instead of user having to manually save them)
+
+#### Nathan:
+
+Each recipe is a given card on the user side, with description as well as some optional image
+
+When user clicks on the given recipe card it will then create itemized display of ingredients with the same information, with some data on price and or location
+
+Potentially have a couple recipes of the day on the home page for display, also to help users get familiar with interface
+Each ingredient has a sort of check box feature to track if the item is obtained or purchased. Aka checklist for ingredients such as a shopping list.
+
+#### Nick:
+
+Recipe recommendation based on user prompt to gpt.
+
+The user interface should direct the user to input information in such a way that prompts with predictable results can be constructed. i.e. instead of “what would you like to eat?”, we say “please enter the main ingredient”, “please enter any dietary restrictions”, and “enter 1 descriptive word of your desired dish”, so you end up with a list of traits like “tofu”, “vegetarian”, and “spicy”.
+
+The user should receive options, I’m thinking an arbitrary number like 3, hard coded into the prompt we send to the chat gpt API.
+
+Once a recipe is selected, a list of the ingredients in shopping list format is generated.
 
