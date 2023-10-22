@@ -1,4 +1,4 @@
-// Main app file, holds the router and use context providers usually 
+// Main app file, holds the router and use context providers usually
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import './App.css';
 import Header from './components/Header';
@@ -10,12 +10,15 @@ function App() {
     <>
       <Router>
         <div>
-          <Header/>
-            <Routes>
-              <Route path="/" element={<h1>This is the default page or path</h1>} />
-              <Route path="/about" element={<About/>} />
-            </Routes>
-          <Footer/>
+          <Header />
+          <Routes>
+            <Route
+              path="/"
+              element={<h1>This is the default page or path</h1>}
+            />
+            <Route path="/about" element={<About />} />
+          </Routes>
+          <Footer />
         </div>
       </Router>
     </>
