@@ -3,11 +3,12 @@ import React from 'react';
 const RecipieRequestForm = () => {
   return (
     <>
-      <div className="d-flex justify-content-center">
+      <div className="d-flex justify-content-center bg-dark mx-auto mt-5 rounded w-50">
         <form>
+          <h2 className="text-light pt-3 text-center">Recipe request form</h2>
           <div className="form-group">
             <label htmlFor="input1"></label>
-            <input
+            <textarea
               type="text"
               className="form-control"
               id="input1"
@@ -15,7 +16,7 @@ const RecipieRequestForm = () => {
             />
           </div>
           <div className="form-group">
-            <label for="exampleFormControlSelect1">
+            <label className="text-light" for="exampleFormControlSelect1">
               Select number of recipes to receive
             </label>
             <select class="form-control" id="exampleFormControlSelect1">
