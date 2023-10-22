@@ -4,6 +4,7 @@ import './App.css';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import About from './pages/About';
+import RecipieRequestForm from './components/RecipieRequestForm';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
               element={<h1>This is the default page or path</h1>}
             />
             <Route path="/about" element={<About />} />
+            <Route path="/page1" element={<RecipieRequestForm />} />
           </Routes>
           <Footer />
         </div>
